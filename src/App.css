@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(to right, pink, orange);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a,Link{
+   text-decoration: none;
+   color: black;
+   padding-left:10px ;
+}
+
+.color{
+  background-color: rgb(202, 157, 88);
+}
+#nav{
+  background-color: blue;
+  border-bottom-left-radius: 75px;
+border-top-right-radius: 75px;
+}
+#view{
+  background-color:rgb(102, 87, 145);
+}
+#employee{
+  background-image: linear-gradient(to right, rgb(202, 55, 146), rgb(105, 16, 20));
+}
+#namebox{
+  background-image: linear-gradient(to right, rgb(203, 223, 25), rgb(73, 216, 60), rgb(40, 196, 157));
+  
+}
+@keyframes mymove {
+  from {right: 0px;}
+  to {right: 200px;}
+  }
+  #show{
+    background-image: linear-gradient(to right, rgb(20, 13, 124), rgb(47, 162, 190), rgb(185, 210, 224));
+  }
+.view{
+  position: relative;
+  animation: mymove 5s infinite;
+}
